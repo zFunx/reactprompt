@@ -61,7 +61,7 @@ export default Modal;
 
 ```javascript
 // openModal.js
-import reactprompt from "./reactpromt"; // this file is included in this project
+import reactprompt from "./reactprompt"; // this file is included in this project
 import Modal from "./modal";
 
 const openModal = async (props) => {
@@ -87,11 +87,9 @@ export default function App() {
 
   return (
     <div className="App">
-    {/* code */}
       <button onClick={getUserInput}>
         Enter your name
       </button>
-    {/* code */}
     </div>
   );
 }
